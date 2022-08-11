@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="/css/main.css">
+	<title>Ekan | Frontend Web Developer</title>
+</head>
+
+<body>
+	<!-- ***** Navigation ***** -->
+
+	<div class="navigation">
+		<input type="checkbox" class="navigation__checkbox" id="nav-toggle" />
+		<label for="nav-toggle" class="navigation__button">
+			<span class="navigation__icon" aria-label="toggle navigation menu">&nbsp;</span>
+		</label>
+		<div class="navigation__background">&nbsp;</div>
+
+		<nav class="navigation__nav" role="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a href="#about" class="navigation__link"><span>01</span>About</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#skill" class="navigation__link"><span>02</span>Skills</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#work" class="navigation__link"><span>03</span>Work</a>
+				</li>
+				<li class="navigation__item">
+					<a href="#footer" class="navigation__link"><span>05</span>Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<!-- ***** Header ***** -->
+
+	<header class="header" role="banner" id="header">
+		<div class="header__text-box">
+			<h1 class="heading-primary">Hi! I am Ekan</h1>
+			<p class="header__description">
+				A Web Developer who creates UX rich performant websites and web
+				applications.
+			</p>
+			<a href="https://github.com/Spacedaway" class="btn btn__hire" id="hire">Hire Me &nbsp;&rarr;</a>
+		</div>
+	</header>
+
+	<!-- ***** Main ***** -->
+
+	<main role="main">
+		<!-- ***** Section Skills ***** -->
+
+		<section class="skill" id="skill">
+			<div class="u-text-center">
+				<h2 class="heading-secondary">My Skillset</h2>
+				<p class="intro-text">
+					I have a diverse set of skills from design to Semantic and well structured HTML + reasonable and
+					efficient CSS along with JavaScript. I love things that are open source I use VS Code as my editor
+					and Windows as My operating system.
+				</p>
+				<a href="#work" class="btn">My Work</a>
+			</div>
+		</section>
+
+		<!-- ***** Section About ***** -->
+
+		<section class="about" id="about">
+			<div class="u-text-center">
+				<h2 class="heading-secondary">About Me</h2>
+			</div>
+			<p class="intro-text">
+				I am a mostly self-taught Frontend Web Developer from Nigeria. I've been programming for about three
+				years now. I have always been a curious individual, which is why I’d love to collaborate and do some
+				real-world projects in order to flourish my skills. I'm not perfect, however. I'm very far from
+				perfection, yet I'm resilient, assertive and stubborn and I find learning to be a fascinating process. I
+				am currently learning about APIs and my future plan is to go through the full MERN Stack.
+			</p>
+		</section>
+
+		<!-- ***** Section Craft ***** -->
+
+		<section class="craft">
+			<div class="u-text-center">
+				<h2 class="heading-secondary">My Craft in a Nutshell</h2>
+				<p class="intro-text">
+					I believe simplicity is undervalued and therefore strive to make things as simple as possible. I am
+					also very concerned about best practices and always sacrifice developer experience over user
+					experience.
+				</p>
+			</div>
+
+			<div class="row">
+				<div class="craft__item">
+					<img src="./img/browser-16.svg" alt="Browser" class="craft__img" />
+					<h3 class="heading-tertiary">Front-end</h3>
+					<p class="craft__description">
+						I value simple content structure, clean design patterns, and
+						thoughtful interactions filled with semantics and performance. I
+						tend to code things from scratch and enjoy bringing ideas to life.
+					</p>
+				</div>
+
+				<div class="craft__item hack"></div>
+
+				<div class="craft__item">
+					<img src="./img/browser-26.svg" alt="Server" class="craft__img" />
+					<h3 class="heading-tertiary">Back-end</h3>
+					<p class="craft__description">
+						I am a huge fan of "convention over configuration" and like things
+						that follow "don't repeat yourself" principle.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- ***** Section Work ***** -->
+
+		<section class="work" id="work">
+			<div class="u-text-center">
+				<h2 class="heading-secondary">My Work</h2>
+				<p class="intro-text">
+					I am currently working on some Projects, which I will upload to my portfolio as soon as they are
+					done. Here are a few little demos: <span><a
+							href="https://fastidious-cheesecake-1f8450.netlify.app/">A Fast Food Landing Page,
+						</a></span> <span><a href="https://lighthearted-tartufo-3faad9.netlify.app/">An Advice
+							Generator, </a></span> <span><a
+							href="https://flourishing-sherbet-615d71.netlify.app/">Temperature Converter, </a></span>
+					(Work in Progress).
+				</p>
+				<img src="./img/609732.svg" alt="" class="work__construction" />
+			</div>
+		</section>
+	</main>
+
+	<!-- ***** Footer ***** -->
+
+	<footer class="footer" id="footer">
+		<nav>
+			<ul class="footer__social-links">
+				<li class="number">(+234) 81659456</li>
+				<li>
+					<a href="mailto:syednisarhassan12@gmail.com" class="number">ekanabasiisok@rocketmail.com</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="footer__outro">
+			<p class="footer__info">&copy;2022. All rights reserved.</p>
+		</div>
+	</footer>
+
+	<script>
+		const navigation__checkbox = document.querySelector(
+			".navigation__checkbox"
+		);
+		const navigation__list = document.querySelector(".navigation__list");
+		navigation__list.addEventListener('click', (e) => {
+			if (e.target !== navigation__list) {
+				navigation__checkbox.checked = false;
+			}
+		})
+	</script>
+</body>
+
+</html>

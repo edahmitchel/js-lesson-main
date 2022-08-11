@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+.Hero-Bg {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .2), rgba(0, 0, 0, .1), rgba(0, 0, 0, 0)),
+    url("../Image/Burgers Site/background-1.png");
+    background-size: cover;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler{
+    border: 1px solid white;
+}
+
+.Hero-Bg nav img {
+    padding: 1em 0em 0em 3em;
+    max-width: 85%;
+}
+
+.Hero-Bg ul {
+    padding: 3em 4em 0em 0em;
+}
+
+.Hero-Bg li {
+    padding-right: 3em;
+}
+
+.Hero-Bg a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+.Hero-Bg li a:hover {
+    color: #f64b3c;
+}
+
+.Cashback{
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.Cashback-Col{   
+    padding-left: 2em;
+}
+
+.Cashback h1 {
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Cashback p {
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Cashback button {
+    background-color: #f64b3c;
+    padding: 0.5em 3em 0.5em 3em;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.Our-Chef {
+    background: url("../Image/Burgers Site/Background-2.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: #f64b3c;
+}
+
+.Our-Chef section {
+    text-align: center;
+    padding-top: 4em;
+}
+
+.Our-Chef section h1 {
+    font-weight: 700;
+    font-size: 1.2cm;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Our-Chef section p {
+    padding-top: 1em;
+    font-size: x-large;
+    font-weight: lighter;
+    padding-bottom: 2em;
+}
+
+.Our-Chef img {
+    max-width: 40%;
+    margin: auto;
+    display: block;
+}
+
+.Chef-Profile h2 {
+    font-size: x-large;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    padding-top: 0.5em;
+}
+
+.Chef-Profile p {
+    font-size: large;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Best-Burger{
+    background-color: #f64b3c;
+    height: auto;
+    color: white;
+}
+
+.Best-Burger img {
+    max-width: 80%;
+    margin: auto;
+    display: block;
+    padding: 5em 0em 5em 0em;   
+}
+
+.Best-Bur-Col2 {
+    max-width: 80%;
+    margin: auto;
+    padding-top: 10em;
+}
+
+.Best-Burger h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    padding-bottom: 0.3em;
+}
+
+.Best-Burger p {
+    padding-bottom: 0.7em;
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Best-Burger button {
+    background-color: white;
+    padding: 0.5em 4em 0.5em 4em;
+    color: #f64b3c;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    width: auto;
+}
+
+.Big-Burger {
+    background: url("../Image/Burgers Site/Background-4.png");
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    color: #f64b3c;
+}
+
+.Big-Burger img {
+    max-width: 80%;
+    display: block;
+    margin: 5em 0em 5em 0em;
+}
+
+.Big-Bur-Col1 {
+    max-width: 80%;
+    margin-left: 5em;
+    padding-top: 10em;
+}
+
+.Big-Burger h1 {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+    padding-bottom: 0.3em;
+}
+
+.Big-Burger p {
+    padding-bottom: 0.5em;
+    font-size: 28px;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Big-Burger button {
+    background-color: #f64b3c;
+    padding: 0.5em 4em 0.5em 4em;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.Stats h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.counters {
+    height: auto;
+    width: 100%;
+    background-color: #f64b3c;
+    text-align: center;
+    color: white;
+    height: 30rem;
+    padding-top: 3em;
+}
+
+.count-container {
+    display: flex;
+    justify-content: center;
+}
+
+.count-container>div {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 100%;
+    width: 200px;
+    border: 3px solid white;
+}
+
+.count-container h1 {
+    font-weight: bold;
+    font-size: 2cm;
+    font-family: 'Archivo', sans-serif;
+}
+
+.count-container p {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.Count-1 {
+    text-align: center;
+    line-height: 10px;
+}
+
+.Count-2 {
+    text-align: center;
+    line-height: 10px;
+}
+
+.Count-3 {
+    text-align: center;
+    line-height: 10px;
+}
+
+.Popular-Package {
+    background: url("../Image/Burgers Site/Background-6.png");
+    background-position: center;
+    background-size: cover;
+    color: #f64b3c;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    height: auto;
+    padding-top: 3em;
+}
+
+.Pricing {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3em;
+}
+
+.Pricing>div{
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: auto;
+    border: solid;
+    border-color: white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.Popular-Package h1 {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Pricing h2 {
+    padding-top: 0.7em;
+    font-weight: bolder;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Name{
+    padding-bottom: 1em;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Pricing button {
+    background-color: #f64b3c;
+    padding: 0.5em 5em 0.5em 5em;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.Quote-Page {
+    background: url("../Image/Burgers\ Site/Background-7.png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 30rem;
+}
+
+.Quote-Page h1 {
+    padding-top: 6em;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Quote-Page h2 {
+    padding-top: 2em;
+    font-size: x-large;
+    font-family: 'Calistoga', sans-serif;
+}
+
+.Updates {
+    background: url("../Image/Burgers Site/Background-8.png");
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    text-align: center;
+    color: #f64b3c;
+}
+
+.Updates h1 {
+    padding-top: 2em;
+    font-weight: bold;
+    font-size: 1.5cm;
+    font-family: 'Archivo', sans-serif;
+}
+
+.Updates p {
+    padding-top: 1em;
+    font-size: large;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Updates form {
+    padding-top: 2em;
+}
+
+.Updates input {
+    position: relative;
+}
+
+.Updates input[type=text] {
+    border: none;
+    width: 35%;
+    padding: 0.6em;
+    border-radius: 25px 0 0 25px;
+    margin-top: 1.2em;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Updates button {
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f64b3c;
+    left: -5px;
+    padding: 0.6em 2em 0.6em 1em;
+    color: white;
+    border-radius: 0 25px 25px 0;
+    border: none;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.Footer {
+    background-color: #222222;
+    height: auto;
+    color: white;
+    padding-top: 8em;
+    font-size: medium;
+    padding-bottom: 4em;
+}
+
+.Footer h5 {
+    padding-bottom: 0.3em;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.Footer p {
+    font-weight: lighter;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Paragraph {
+    padding-bottom: 0.3em;
+}
+
+.Footer img {
+    max-width: 7%;
+    padding-right: 7px;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.Footer a:hover {
+    color: #f64b3c;
+}
+
+@media (max-width: 1050px){
+    .Best-Burger h1 {
+        font-size: 40px;
+    }
+    
+    .Best-Burger p {
+        font-size: 20px;
+    }
+
+    .Best-Bur-Col1 {
+        padding-top: 0em;
+        border: solid;
+    }
+
+    .Big-Burger h1 {
+        font-size: 40px;
+    }
+    
+    .Big-Burger p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 760px){
+    .Best-Burger h1 {
+        font-size: 30px;
+    }
+    
+    .Best-Burger p {
+        font-size: 15px;
+    }
+    
+    .Best-Bur-Col2 {
+        padding-top: 8em;
+    }
+
+    .Big-Burger h1 {
+        font-size: 30px;
+    }
+    
+    .Big-Burger p {
+        font-size: 15px;
+    }
+
+    .Big-Bur-Col1 {
+        padding-top: 8em;
+    }
+}
+
+@media (max-width: 580px){
+    .Best-Burger h1 {
+        font-size: 20px;
+    }
+    
+    .Best-Burger p {
+        font-size: 10px;
+        padding-bottom: 0em;
+    }
+
+    .Best-Burger button {
+        padding: 0em 1em 0em 1em;
+    }
+
+    .Best-Bur-Col2 {
+        padding-top: 6em;
+    }
+
+    .Big-Burger h1 {
+        font-size: 20px;
+    }
+    
+    .Big-Burger p {
+        font-size: 10px;
+        padding-bottom: 0em;
+    }
+
+    .Big-Burger button {
+        padding: 0em 1em 0em 1em;
+    }
+
+    .Big-Bur-Col1 {
+        padding-top: 6em;
+    }
+}
+
+@media (max-width: 620px){
+    .count-container>div {
+        height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border-radius: 100%;
+        width: 160px;
+        border: 3px solid white;
+    }
+
+    .count-container h1 {
+        font-weight: bold;
+        font-size: 1cm;
+    }
+    
+    .count-container p {
+        font-weight: bold;
+        font-size: medium;
+    }
+}
+
+@media (max-width: 890px){
+    .Pricing>div{
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        margin: auto;
+        border: solid;
+        border-color: white;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .Popular-Package h1 {
+        padding-top: 1em;
+        padding-bottom: 2em;
+        font-weight: bold;
+    }
+    
+    .Pricing h2 {
+        padding-top: 0.7em;
+        font-weight: bolder;
+    }
+    
+    .Name{
+        padding-bottom: 1em;
+    }
+    
+    .Pricing button {
+        background-color: #f64b3c;
+        padding: 10px 60px 10px 60px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 770px){
+    .Pricing>div{
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin: auto;
+        border: solid;
+        border-color: white;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .Popular-Package h1 {
+        padding-top: 1em;
+        padding-bottom: 2em;
+        font-weight: bold;
+    }
+    
+    .Pricing h2 {
+        padding-top: 0.7em;
+        font-weight: bolder;
+    }
+    
+    .Name{
+        padding-bottom: 1em;
+    }
+    
+    .Pricing button {
+        background-color: #f64b3c;
+        padding: 0px 40px 0px 40px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 770px){
+    .Pricing>div{
+        height: 420px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin: auto;
+        border: solid;
+        border-color: white;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .Popular-Package h1 {
+        padding-top: 1em;
+        padding-bottom: 2em;
+        font-weight: bold;
+    }
+    
+    .Pricing h2 {
+        padding-top: 0.7em;
+        font-weight: bolder;
+        font-size: large;
+    }
+    
+    .Name{
+        padding-bottom: 1em;
+    }
+    
+    .Pricing button {
+        background-color: #f64b3c;
+        padding: 0px 40px 0px 40px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        font-weight: bold;
+    }
+}
